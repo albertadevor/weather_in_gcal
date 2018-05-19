@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+ 
+  "name": "Weather in GCal",
+  "version": "0.1.0",
+  "description": "Adds weather predictions to google calendar",
+ 
+  "content_scripts": [{
+    "css": ["index.css"],
+    "js": ["index.js"],
+    "matches": ["https://calendar.google.com/calendar/r/week"]
+  }]
+ 
+}
